@@ -9,5 +9,13 @@ package paquete03;
  * @author toled
  */
 public class Clase01 {
-    
+    public static void main(String[] args) {
+        
+    }
+    public static String[][] obtenerCadena(){
+       String [][] cadena = { {"LOJA","CUENCA", "QUITO"},
+           {"GUAYAQUIL","ZAMORA","MACHALA"}};
+       return cadena;
+        
+    }
 }
